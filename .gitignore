@@ -7,3 +7,8 @@
 .vimrc
 .gitconfig
 .gitignore
+.pm2/logs/*
+.pm2/pm2.log
+.pm2/pm2.pid
+.pm2/pids
+
