@@ -1,14 +1,13 @@
-.bash_history
-.bashrc
-.cache
-.nano
-.ssh
-.viminfo
-.vimrc
-.gitconfig
-.gitignore
-.pm2/logs/*
-.pm2/pm2.log
-.pm2/pm2.pid
-.pm2/pids
+*.bash_history
+*.bashrc
+*.cache
+*.nano
+*.ssh
+*.viminfo
+*.vimrc
+*.gitconfig
+*.pm2/logs/*
+*.pm2/pm2.log
+*.pm2/pm2.pid
+*.pm2/pids
 
