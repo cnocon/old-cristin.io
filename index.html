@@ -1,47 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en/us">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <style type="text/css">
     @import url('https://themes.googleusercontent.com/fonts/css?kit=RFda8w1V0eDZheqfcyQ4EGb3DKsRMD34dqg1gT8Z-p6isjtAVhoKeKPV_uAAgBOSk3k702ZOKiLJc3WVjuplzPesZW2xOQ-xsNqO47m55DA');
 
     .c14 {
-      padding-top: 0pt;
-      padding-bottom: 0pt;
+      padding-top: 0;
+      padding-bottom: 0;
       line-height: 1.0;
       text-align: left;
-      margin-right: 15pt;
-      height: 9pt
+      margin-right: 1.5rem;
+      height: .9rem;
     }
 
     .c34 {
-      padding-top: 0pt;
-      padding-bottom: 6pt;
-      line-height: 1.0;
+      padding-top: 0;
+      padding-bottom: .6rem;
+      line-height: 1;
       text-align: left;
-      margin-right: 15pt
+      margin-right: 1.5rem;
     }
 
     .c18 {
-      padding-top: 0pt;
-      padding-bottom: 0pt;
+      padding-top: 0;
+      padding-bottom: 0;
       line-height: 1.0;
       text-align: left;
-      margin-right: 15pt
+      margin-right: 1.5rem;
     }
 
     .c26 {
       color: #000000;
       font-weight: 700;
-      font-size: 36pt;
+      font-size: 3.6rem;
       font-family: "Merriweather"
     }
 
     .c32 {
       color: #666;
       font-weight: 400;
-      font-size: 6pt;
+      font-size: .6rem;
       font-family: "Merriweather"
     }
 
@@ -62,25 +62,25 @@
     }
 
     .c9 {
-      font-size: 9pt;
+      font-size: .9rem;
       font-weight: 400
     }
 
 
     .c33 {
-      height: 9pt
+      height: .9rem;
     }
 
     .c29 {
-      color: #000000
+      color: #000;
     }
 
     .title {
-      padding-top: 0pt;
-      color: #000000;
+      padding-top: 0;
+      color: #000;
       font-weight: 700;
-      font-size: 36pt;
-      padding-bottom: 6pt;
+      font-size: 3.6rem;
+      padding-bottom: .6rem;
       font-family: "Merriweather";
       line-height: 1.0;
       text-align: left
@@ -88,49 +88,27 @@
 
 /***************************************************/
 /***************************************************/
+    * {
+      /* box-sizing: border-box; */
+    }
 
+    html {
+      font-size: 11px;
+    }
     body {
-      background-color: #fff;
-      /* max-width: 525.6pt; */
-      max-width: 533.6pt;
-      padding: 15pt; /*28.8pt 43.2pt 43.2pt 43.2pt*/
+      width: 84%;
+      min-width: 400px;
+      max-width: 700px;
       margin: 0 auto;
+      padding: 5% 8%; /*28.8pt 43.2pt 43.2pt 43.2pt*/
       font-family: "Open Sans", sans-serif;
       line-height: 1.15;
     }
 
-    .subtitle {
-      padding-top: 0pt;
-      padding-bottom: 0pt;
-      line-height: 1.5;
-      text-align: left;
-      text-decoration: none;
-      vertical-align: baseline;
-      font-style: normal;
-      color: #000;
-      font-weight: 400;
-      font-size: 9pt;
-      padding-right: 15pt;
-    }
-
-    table {
-      border-spacing: 0;
-      border-collapse: collapse;
-      margin-right: auto
-    }
-
-    table td,
-    table th {
-      padding: 0
-    }
-
     /* Wide Column */
-    td:first-child {
-      border-right-style: solid;
-      /* padding: 7.2pt 7.2pt 7.2pt 7.2pt; */
-      padding: 7.2pt 15.2pt 7.2pt 7.2pt;
-      /* width: 358.5pt; */
-      width: 366.5pt;
+    tr > td:first-child {
+      padding: 0 3% 0 0;
+      width: 67%;
       vertical-align: top;
       border: 0;
     }
@@ -138,9 +116,22 @@
     /* Narrow Columns */
     td.contact,
     td.aside {
-      width: 165pt;
-      padding: 7.2pt 7.2pt 7.2pt 7.2pt;
+      width: 27%;
+      padding: .72rem 0 .72rem 3%;
       vertical-align: top;
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+      margin-right: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    table td,
+    table th {
+      padding: 0
     }
 
     td.contact ul {
@@ -148,12 +139,13 @@
     }
 
     td.contact li {
-      padding-top: 0pt;
-      padding-bottom: 0pt;
+      padding-top: .4rem;
+      padding-bottom: 0;
       line-height: 1.15;
       text-align: left;
-      margin-right: 15pt;
+      margin-right: 1.5rem;
       list-style: none;
+      white-space: nowrap;
     }
 
     td.aside ul {
@@ -162,19 +154,19 @@
     }
 
     td.aside li {
-      padding-top: 0pt;
-      padding-bottom: 11pt;
+      padding-top: 0;
+      padding-bottom: 1.1rem;
       line-height: 1.3;
       text-align: left;
-      margin-right: 15pt;
+      margin-right: 1.5rem;
       list-style-position: inside;
-      font-size: 8.5pt;
+      font-size: .85rem;
       color: #000;
       font-family: "Open Sans", sans-serif;
     }
 
     td.aside li:first-child {
-      padding-top: 11pt;
+      padding-top: 1.1rem;
     }
 
     td.contact a {
@@ -184,7 +176,7 @@
       text-decoration: none;
       text-decoration-skip-ink: none;
       font-family: "Open Sans";
-      font-size: 8pt;
+      font-size: .8rem;
     }
 
     td.contact a:hover,
@@ -198,27 +190,43 @@
         font-family: "Merriweather", serif;
         color: #000000;
         font-weight: 400;
-        font-size: 8pt;
+        font-size: .8rem;
     }
+
+
+    .subtitle {
+      padding-top: 0;
+      padding-bottom: 0;
+      line-height: 1.5;
+      text-align: left;
+      text-decoration: none;
+      vertical-align: baseline;
+      font-style: normal;
+      color: #000;
+      font-weight: 400;
+      font-size: .9rem;
+      padding-right: 1.5rem;
+    }
+
 
     h1 {
       /* padding-top: 30pt; */
       color: #2079c7;
       font-weight: 700;
-      font-size: 9pt;
-      padding-bottom: 0pt;
+      font-size: .9rem;
+      padding-bottom: 0;
       font-family: "Open Sans";
       line-height: 1.0;
       text-align: left
     }
 
     h1.heading {
-      padding-top: 30pt;
+      padding-top: 3rem;
       letter-spacing: 1.5px;
-      padding-bottom: 0pt;
+      padding-bottom: 0;
       line-height: 1.0;
       text-align: left;
-      margin-right: 15pt
+      margin-right: 1.5rem;
     }
 
     h1.heading:first-child {
@@ -227,14 +235,14 @@
 
     h2 {
       page-break-after: avoid;
-      margin-right: 15pt
+      margin-right: 1.5rem;
       margin-bottom: 0;
       /* padding-top: 16pt;*/
-      padding-top: 8pt;
-      padding-bottom: 0pt;
+      padding-top: .8rem;
+      padding-bottom: 0;
       color: #000;
       font-weight: 400;
-      font-size: 9pt;
+      font-size: .9rem;
       font-family: "Merriweather";
       line-height: 1.0;
       text-align: left;
@@ -270,15 +278,15 @@
     }
 
     h3.date {
-      font-size: 7.5pt;
+      font-size: .75rem;
       letter-spacing: 0.5px;
       text-transform: uppercase;
       text-align: left;
       font-family: "Open Sans", sans-serif;
       line-height: 1;
       page-break-after: avoid;
-      margin-top: 4pt;
-      margin-bottom: 11pt;
+      margin-top: .4rem;
+      margin-bottom: 1.1rem;
     }
 
     h3 span {
@@ -287,24 +295,24 @@
     }
 
     h4 {
-      padding-top: 8pt;
+      padding-top: .8rem;
       -webkit-text-decoration-skip: none;
       color: #666;
       text-decoration: underline;
       text-decoration-skip-ink: none;
-      font-size: 11pt;
-      padding-bottom: 0pt;
+      font-size: 1.1rem;
+      padding-bottom: 0;
       font-family: "Trebuchet MS";
       line-height: 1.3;
       page-break-after: avoid;
       text-align: left
     }
 
-    h5 {
-      padding-top: 8pt;
+    h5, h6 {
+      padding-top: .8rem;
       color: #666;
-      font-size: 11pt;
-      padding-bottom: 0pt;
+      font-size: 1.1rem;
+      padding-bottom: 0;
       font-family: "Trebuchet MS";
       line-height: 1.3;
       page-break-after: avoid;
@@ -312,15 +320,7 @@
     }
 
     h6 {
-      padding-top: 8pt;
-      color: #666;
-      font-size: 11pt;
-      padding-bottom: 0pt;
-      font-family: "Trebuchet MS";
-      line-height: 1.3;
-      page-break-after: avoid;
       font-style: italic;
-      text-align: left
     }
 
     p {
@@ -331,7 +331,7 @@
       line-height: 1.5;
       text-decoration: none;
       vertical-align: baseline;
-      font-size: 8.5pt;
+      font-size: .85rem;
       font-style: normal;
       font-weight: normal;
       font-family: "Merriweather", serif;
@@ -339,14 +339,14 @@
 
     p.list-header {
       color: #000;
-      font-size: 8pt;
+      font-size: .8rem;
       text-transform: uppercase;
       font-family: "Open Sans", sans-serif;
     }
 
     ul {
       list-style-type: none;
-      padding-left: 15pt;
+      padding-left: 1.5rem;
       margin-bottom: 0 !important;
     }
 
@@ -357,7 +357,7 @@
 
     li {
       color: #333;
-      font-size: 9pt;
+      font-size: .9rem;
       font-family: "Merriweather";
       padding: 0;
       padding-left: 0;
@@ -365,20 +365,31 @@
     }
 
     ul.awards {
-      margin-top: 5pt;
+      margin-top: .5rem;
     }
 
     ul.awards li {
       font-family: "Open Sans";
-      padding-top: 3pt;
-      padding-bottom: 0pt;
+      padding-top: .3rem;
+      padding-bottom: 0;
       line-height: 1.15;
       text-align: left;
       list-style: disc;
-      margin-right: 15pt;
+      margin-right: 1.5rem;
       margin-left: 0;
-      padding-left: 0pt;
-      font-size: 8.5pt;
+      padding-left: 0;
+      font-size: .85rem;
+    }
+
+    @media screen and (min-width: 500px) {
+      html {
+        font-size: 12px;
+      }
+    }
+    @media screen and (min-width: 650px) {
+      html {
+        font-size: 13px;
+      }
     }
 </style>
 </head>
@@ -478,4 +489,5 @@
 </body>
 
 </html>
+
 
