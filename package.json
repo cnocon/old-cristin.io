@@ -1,0 +1,23 @@
+{
+  "name": "cristin.io",
+  "version": "1.0.0",
+  "description": "Front End Software Engineering Blog and Professional Website for Cristin O'Connor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnocon/cristin.io.git"
+  },
+  "keywords": [
+    "Cristin",
+    "O'Connor"
+  ],
+  "author": "Cristin O'Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnocon/cristin.io/issues"
+  },
+  "homepage": "https://github.com/cnocon/cristin.io#readme"
+}
