@@ -1,3 +1,6 @@
+#restart Nginx server
+alias renginx='sudo systemctl restart nginx'
+
 #just shows commit message abbreviated to one line
 alias gsearch3='git show --no-patch --oneline ' # E.G. gsearch2 <COMMIT SHA>
 # just shows author, date, and full commit message
